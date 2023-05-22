@@ -4,8 +4,8 @@ Este é um exemplo simples de como executar a imagem `minha-api` usando o Docker
 
 ## Pré-requisitos
 
-Certifique-se de ter o Docker e Docker Compose instalado em seu sistema. Para mais informações: 
-https://docs.docker.com/get-docker/
+Certifique-se de ter o Docker e Docker Compose instalado em seu sistema. Para mais informações: <br>
+https://docs.docker.com/get-docker/ <br>
 https://docs.docker.com/compose/install/
 
 ## Passos
@@ -18,7 +18,7 @@ git clone https://github.com/diogoacavalcante/desafio_16052023
 
 3. Execute o comando docker-compose up para iniciar a aplicaçãp, use o parâmetro -d para executar o comando em background.
 
-docker-compose up
+docker-compose up <br>
 docker-compose up -d
 
 4. Acesse a aplicação:
