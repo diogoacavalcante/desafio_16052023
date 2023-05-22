@@ -1,6 +1,6 @@
 version: '3'
 services:
   minha-api:
-    image: diogoacavalcante/minha-api:1.0
+    image: diogoacavalcante/minha-api:x86_64
     ports:
       - 5000:5000
