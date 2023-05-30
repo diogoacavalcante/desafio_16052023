@@ -1,6 +1,14 @@
 version: '3'
 services:
   minha-api:
-    image: diogoacavalcante/minha-api:x86_64
+    image: diogoacavalcante/minha-api:x86_64_29052023
     ports:
       - 5000:5000
+  prometheus:
+    image: prom/prometheus
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+    ports:
+      - "9090:9090"
